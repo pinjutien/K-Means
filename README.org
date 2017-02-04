@@ -1,0 +1,11 @@
+* k-mean algorithm:
+  * k_mean function : 
+    input: given data_set (m x p), m: number of data, p : p-dimension space and k-cluster.
+    output: centroids (k x p).
+    
+    * first randomly select and the initial cluster points.
+    * keep iteration until the stop_iteration true.
+    * assign_labels: given current_centrodis, use them to assign which cluster every data belongs to.
+    * getCentroids: With current label_array and data_set, calculate the centroids coordinates.
+    
+
